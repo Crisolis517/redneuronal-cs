@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "redneuronal-cs"
+version = "0.1.0"
+description = "Perceptrón simple y red feedforward programados desde cero con NumPy (material académico)"
+readme = "README.md"
+authors = [{ name = "Cristian Solís" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = ["numpy>=1.21"]
+
+[tool.setuptools]
+packages = ["redneuronal_cs"]
